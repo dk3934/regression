@@ -4,7 +4,7 @@ marked.setOptions({ gfm:true, mangle:false, headerIds:false });
 
 const ORDERED_NOTES = [
   { file: "ordinary_least_squares.md", title: "Section 1: Ordinary Least Squares" },
-  { file: "omitted variables.md", title: "Section [?]: Much Ado About Omitted Variables" },
+  { file: "omitted_variables.md", title: "Section [?]: Much Ado About Omitted Variables" },
 ];
 
 function $id(id){ return document.getElementById(id); }
